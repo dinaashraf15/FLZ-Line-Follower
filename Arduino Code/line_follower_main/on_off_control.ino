@@ -1,9 +1,9 @@
 
 void controlOnOff(int error){
-if (error == (00001)&&error == (00010)){
+if (error == (00001) || error == (00010)){
   moveR();
 }
-else if (error == (10000)&&error == (01000)){
+else if (error == (10000) || error == (01000)){
   moveL();
 }
 else if (error == (00000)){
